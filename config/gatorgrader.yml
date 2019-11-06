@@ -1,0 +1,17 @@
+---
+name : computer-science-201-fall-2019-lab-1
+break: True
+indent: 4
+---
+
+myimages/_data:
+    Lab1.java:
+        ConfirmFileExists
+        MatchFileFragment --fragment "System.out.println" --count 7
+
+    Lab1Part4.java:
+        ConfirmFileExists
+        MatchFileFragment --fragment "double" --count 1
+
+Findings.pdf:
+    ConfirmFileExists

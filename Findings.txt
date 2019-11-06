@@ -1,0 +1,15 @@
+Megan Corletti, This work is mine unless otherwise cited.
+
+Some JVM commands within the byte code that were different for doubles consisted
+of ldc2_w and dstore. ldc2_w operates by pushing long or double from run-time
+constant pool. dstore stores double variables into a local constant. Within the
+Java file, I left the numbers as they were but labeled them as doubles. When
+compiling the Java file, the numbers printed out as decimals and the
+decimal significant figure was a zero. Once changing the byte code's values,
+the numbers that printed out were the new byte code values; still
+leaving the original values in the Java file.
+
+I have verified that editing the byte code in Lab1Part4 has allowed the program
+to run and produce the new results.
+
+This lab posed to be challenging at first since it was something different than I had ever done. VNC viewer was a new way of looking at code and for the first half of the lab, it did not want to work for me. Thankfully, I figured it out and over time I got more comfortable with the idea of working in the VNC viewer. I am still getting use to the idea of Docker and being inside of a container to do all of my work. I hope over time that I am able to be fully confident and comfortable working with this new software. 
